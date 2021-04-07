@@ -9,5 +9,8 @@ Template.task.events({
         TasksCollection.update(this._id, {
             $set: {isChecked: !this.isChecked}
         });
+    },
+    "click .delete"() {
+        TasksCollection.remove(this._id);
     }
 });
