@@ -1,6 +1,6 @@
 # blaze-demo
 
-I'm trying to follow meteor's blaze tutorial from ![This link](https://blaze-tutorial.meteor.com/simple-todos/)
+I'm trying to follow meteor's blaze tutorial from [This link](https://blaze-tutorial.meteor.com/simple-todos/)
 
 Found the following mistakes in their tutorial:
 *   Section 1.4, line 5 of code example (imports/ui/App.js)
@@ -18,3 +18,4 @@ Found the following mistakes in their tutorial:
     });
     ```
 *   Section 2.1, file ```link.js``` doesn't exist.
+*   Section 2.2 import for ```TasksCollection``` should be ```'../imports/api/TasksCollection'``` in order to match previous sections.
