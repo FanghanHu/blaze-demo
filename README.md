@@ -19,3 +19,5 @@ Found the following mistakes in their tutorial:
     ```
 *   Section 2.1, file ```link.js``` doesn't exist.
 *   Section 2.2 import for ```TasksCollection``` should be ```'../imports/api/TasksCollection'``` in order to match previous sections.
+
+# Continue working on this in section 6.1
