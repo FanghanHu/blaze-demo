@@ -19,5 +19,27 @@ Found the following mistakes in their tutorial:
     ```
 *   Section 2.1, file ```link.js``` doesn't exist.
 *   Section 2.2 import for ```TasksCollection``` should be ```'../imports/api/TasksCollection'``` in order to match previous sections.
+*   At end of Section 6.1:
+    ```
+    ...
 
-# Continue working on this in section 6.1
+    </header>
+
+    <div class="main">
+        {{> form }}
+
+        <div class="filter">
+            <button id="hide-completed-button">
+                {{#if hideCompleted}}
+                        Show All
+                {{else}}
+                        Hide Completed
+                {{/if}}
+            </button>
+        </div>
+    </div> <!-- div.main closed too early, didn't include ... or the task display portion, may cause confusion --> 
+
+    ...
+    ```
+
+    continue in 6.3
